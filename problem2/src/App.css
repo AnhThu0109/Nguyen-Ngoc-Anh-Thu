@@ -1,0 +1,96 @@
+* {
+  font-family: 'Gambetta', serif !important;
+}
+
+#root {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 100vh;
+  margin-top: -50px;
+}
+
+form#basic {
+  background-color: white;
+  opacity: 0.9;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.currencyImg {
+  width: 40px;
+  height: 40px;
+}
+
+.currencyTitle {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.buttonCurrency,
+.buttonCurrency :hover {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.buttonCurrency {
+  margin-top: -10px;
+}
+
+.list-group {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+li.activeCurrency{
+  background-color: #83D5E9;
+}
+
+.ant-input-number-input-wrap,
+input.ant-input-number-input,
+.ant-input-number-wrapper.ant-input-number-group.css-dev-only-do-not-override-1kuana8,
+span.ant-input-group-wrapper.ant-input-group-wrapper-outlined.css-dev-only-do-not-override-1kuana8.w-100,
+input.ant-input.css-dev-only-do-not-override-1kuana8.ant-input-outlined {
+  height: 60px;
+}
+
+.ant-form-item-explain-error {
+  display: flex;
+  align-items: flex-start;
+}
+
+.exchangeBtn {
+  height: 60px !important;
+  width: 60px !important;
+  margin-top: 40px !important;
+}
+
+.exchangeBtn img {
+  width: 30px;
+}
+
+.exchangeNumber {
+  color: #219ebc !important;
+}
+
+.titleText {
+  color: #1A7A92 !important;
+}
+
+.titleText h1 {
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif;
+  letter-spacing: -3px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: rgb(52, 52, 50);
+  outline: none;
+  text-align: center;
+}
+
+h1:hover {
+  font-variation-settings: "wght" 582;
+  letter-spacing: 1px;
+}
