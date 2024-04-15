@@ -54,7 +54,7 @@ const WalletPage: React.FC<Props> = (props: Props) => {
     const usdValue = prices[balance.currency] * balance.amount;
     return (
       <WalletRow
-        className={classes.row} // assuming you have defined classes using CSS modules or similar
+        className={classes.row}
         key={index}
         amount={balance.amount}
         usdValue={usdValue}

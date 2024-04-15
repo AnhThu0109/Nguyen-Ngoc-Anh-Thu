@@ -138,7 +138,11 @@ function App() {
 
   const checkPrice = async (number) => {
     return new Promise((resolve, reject) => {
-      if (number <= 0) {
+      console.log(number)
+      if(number === null){
+        setMessageError("Please enter a valid amount");
+        setConvertedNumber(0);}
+      else if (number <= 0) {
         setMessageError("Please enter an amount greater than 0");
         setConvertedNumber(0);
       } else {
